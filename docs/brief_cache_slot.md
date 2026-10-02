@@ -2,7 +2,7 @@
 
 Date : 2 octobre 2026
 Base : `@cyanmycelium/mcp-broker` 1.6.0, `@cyanmycelium/mcp-broker-provider` 0.3.0, `@cyanmycelium/mcp-core` 1.4.0, `@cyanmycelium/mcp-uns` 0.1.0
-Origine : [historisation comme slot générique](../../mcp-history/docs/brief_history_slot.md), dont ce dépôt reprend la forme
+Origine : [historisation comme slot générique](https://github.com/pandaGaume/mcp-history/blob/main/docs/brief_history_slot.md), dont ce dépôt reprend la forme
 
 ## Décisions prises
 
