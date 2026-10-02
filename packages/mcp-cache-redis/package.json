@@ -1,0 +1,49 @@
+{
+    "name": "@cyanmycelium/mcp-cache-redis",
+    "version": "0.1.0",
+    "description": "Redis store for the cache.v1 contract: one cache shared by every process, with expiry kept by the server.",
+    "type": "module",
+    "license": "Apache-2.0",
+    "author": "Guillaume Pelletier (CyanMycelium)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pandaGaume/mcp-cache.git",
+        "directory": "packages/mcp-cache-redis"
+    },
+    "homepage": "https://github.com/pandaGaume/mcp-cache#readme",
+    "bugs": {
+        "url": "https://github.com/pandaGaume/mcp-cache/issues"
+    },
+    "keywords": [
+        "mcp",
+        "cache",
+        "redis",
+        "uns",
+        "mcp-broker",
+        "cyanmycelium"
+    ],
+    "engines": {
+        "node": ">=20.11.0"
+    },
+    "sideEffects": false,
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "@cyanmycelium/mcp-cache": "^0.1.0",
+        "@cyanmycelium/mcp-uns": "^0.1.0",
+        "redis": "^6.3.0"
+    }
+}
