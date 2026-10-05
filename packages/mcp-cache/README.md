@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/@cyanmycelium/mcp-cache)](https://www.npmjs.com/package/@cyanmycelium/mcp-cache)
+[![CI](https://github.com/pandaGaume/mcp-cache/actions/workflows/ci.yml/badge.svg)](https://github.com/pandaGaume/mcp-cache/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/pandaGaume/mcp-cache/main/docs/assets/logo.png" alt="mcp-cache logo: the network-discovery panda holding a lightning bolt, a memory chip glowing on its chest" width="180">
 </p>

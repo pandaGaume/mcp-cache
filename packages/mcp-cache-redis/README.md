@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/v/@cyanmycelium/mcp-cache-redis)](https://www.npmjs.com/package/@cyanmycelium/mcp-cache-redis)
+[![CI](https://github.com/pandaGaume/mcp-cache/actions/workflows/ci.yml/badge.svg)](https://github.com/pandaGaume/mcp-cache/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+
 # @cyanmycelium/mcp-cache-redis
 
 Redis store for the [cache.v1](https://github.com/pandaGaume/mcp-cache) contract: one cache shared by every process that reaches the server, expiry kept by the server (`SET ... PX`). Entries are addressed by UNS id ([mcp-uns](https://github.com/pandaGaume/mcp-uns)).
